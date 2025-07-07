@@ -1,0 +1,23 @@
+:root{
+    --color:wheat;
+}
+.nav{
+    background-color: var(--color);
+    height: 50px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    padding-left: 83%;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding-top: 50%;
+    padding: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
