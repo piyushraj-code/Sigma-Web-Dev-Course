@@ -1,13 +1,44 @@
-.Card{
-    background-color: rgb(41, 100, 152);
-    border-radius: 15px;
-    height: 500px;
-    width: 260px;
-
-}
-.image{
-    margin-top: 8px;
-    width: 250px;
-    margin-left: 5px;
-    border-radius: 15px;
-}
+body{
+      background-color: aliceblue;
+    }
+    .parent{
+      height: 450px;
+      background-color: white;
+      width: 270px;
+      border-radius: 15px;
+    }
+    .image{
+      width: 250px;
+      padding: 5px;
+      margin: 5px;
+      border-radius: 15px;
+    }
+    .span{
+      padding: 12px;
+      
+    }
+    .Nature{
+      margin-right: 20px;
+      border: 1px solid;
+      padding: 5px;
+      border-radius: 100px;
+    }
+    .heading{
+      margin-top: 10px;
+      padding-left: 13px;
+    }
+    .para{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .button{
+      align-items: center;
+      color: blue;
+      background-color: rgb(203, 203, 234);
+      border-color: rgb(203, 203, 234);
+      border-radius: 100px;
+      border:0;
+      width: 100px;
+      height: 25px;
+      margin-left: 25%;
+    }
