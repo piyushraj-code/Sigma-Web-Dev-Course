@@ -1,0 +1,27 @@
+.box:first-child{
+    background-color: antiquewhite;
+}
+.box:first-line{
+    color: rgb(255, 2, 2);
+}
+.boxes *{
+    color: rgb(2, 48, 255);
+    border: 2px solid rosybrown;
+}
+[data-color="primary"]{
+    padding-top: 45px;
+}
+.boxes::after{
+    content: "Piyush is good.";
+}
+.boxes::before{
+    content: "I am the best";
+    color: brown;
+}
+.boxes::selection{
+    color: aqua;
+    background-color: black;
+}
+.box::first-letter{
+    color: peru;
+}
