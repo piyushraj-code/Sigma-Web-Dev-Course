@@ -41,3 +41,18 @@ else{
    var ans = realOperation(num1, num2, opr);
 }
 alert("The answer is: "+ ans);
+
+// Method 2
+let obj = {
+    "+": "-",
+    "-": "/",
+    "*": "+",
+    "/": "**"
+}
+if(random < 0.1){
+    let ans2 = eval(`${a} ${obj[opr]} ${b}}`);
+
+}
+else{
+    let ans2 = eval(`${a} ${opr} ${b}}`)
+}
