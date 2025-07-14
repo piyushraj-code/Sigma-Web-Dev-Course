@@ -1,11 +1,13 @@
-document.getElementById("box1").style.backgroundColor = "Yellow";
-document.getElementById("box2").style.backgroundColor = "Red";
-document.getElementById("box3").style.backgroundColor = "Brown";
-document.getElementById("box4").style.backgroundColor = "Violet";
-document.getElementById("box5").style.backgroundColor = "Green";
-
-document.getElementById("box1").style.color = "Green";
-document.getElementById("box2").style.color = "Pink";
-document.getElementById("box3").style.color = "Yellow";
-document.getElementById("box4").style.color = "Blue";
-document.getElementById("box5").style.color = "Brown";
+console.log("Script is running.");
+let boxes = document.querySelector(".container").children;
+function getRandomColor(){
+    let color =  [];
+    for(let i = 0; i < 3; i++){
+        color[i] = Math.floor(Math.random()*255+1);
+    }
+    return `rgb(${color[0]}, ${color[1]}, ${color[2]})`
+}
+Array.from(boxes).forEach(e=>{
+    e.style.backgroundColor = getRandomColor();
+    e.style.color = getRandomColor();
+})
