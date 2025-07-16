@@ -7,7 +7,12 @@ function getRandomColor(){
     }
     return `rgb(${color[0]}, ${color[1]}, ${color[2]})`
 }
-Array.from(boxes).forEach(e=>{
+
+let btn = document.getElementById("btn");
+btn.addEventListener("click", ()=>{
+    Array.from(boxes).forEach(e=>{
     e.style.backgroundColor = getRandomColor();
     e.style.color = getRandomColor();
 })
+})
+
